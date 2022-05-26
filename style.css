@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  padding-top: 20px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+body {
+  min-height: 100%;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/51be3e56e4b09edc5f81e74c/1420522052397-Q0FUORF4G23WDPLQISEA/image-asset.png?format=1500w);
+  background-size: 100% 100%;
+  font-family: sans-serif;
+  color: white;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+}
+
+.mini-grid div {
+  width: 20px;
+  height: 20px;
+}
